@@ -1,0 +1,44 @@
+<!--componets/Exam01.vue-->
+<template>
+    <div class="app-exam01">
+        <h3>练习组件创建</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>姓名</td>
+                    <td>性别</td>
+                    <td>爱好</td>
+                    <td>语录</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>张三</td>
+                    <td>男</td>
+                    <td>埋银子</td>
+                    <td>此地无银三百两</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>王二</td>
+                    <td>男</td>
+                    <td>撒谎</td>
+                    <td>隔壁王二不曾偷</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</template>
+<script>
+    export default{
+        data(){
+            return{}
+        }
+    }
+</script>
+<style>
+    .app-exam01{
+        color:red
+    }
+</style>
